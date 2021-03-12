@@ -1,0 +1,68 @@
+
+html{
+  background-image: url("https://memberpress.com/wp-content/uploads/2020/03/How-To-Find-A-Great-Web-Developer-FT.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    text-align: center;
+}
+#description{
+    text-shadow: 1px 1px 2px rgb(26, 26, 26);
+}
+
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(42, 42, 73, 0.7);
+    width: 720px;
+    border-radius: 5px;
+    padding: 45px;
+}
+/*
+ASIGNAR A LOS CHECKBOXES CSS
+  [type ='checkbox']{
+    margin-top: 10px;
+    margin-bottom: 15px;
+  } 
+ */
+#name, #email, #number, #dropdown{
+    width: auto; 
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+}
+#definitely, #maybe, #not-sure, #front, #back, #data, #challenges, #open, #rooms, #videos, #city, #wiki, #forum, #courses{
+    width: 18px;
+    height: 18px;
+}
+#improved{
+    display: flex;
+    align-content: space-between;
+}
+#comment{
+    border: none;
+    height: 120px;
+}
+
+#submit{
+    background-color: #37af65;
+    color: white;
+    border-radius: 3px;
+    height: 50px;
+    width: auto;
+    border: none;
+}
